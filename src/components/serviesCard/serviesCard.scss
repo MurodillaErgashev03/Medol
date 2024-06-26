@@ -1,0 +1,46 @@
+@import "src/styles/variables.scss";
+
+.service {
+    &-list {
+        display: flex;
+        align-items: center;
+        gap: 98px;
+    }
+
+    &-card {
+        background: #ffffff;
+        border-radius: 50px;
+    }
+
+    &-content {
+        text-align: center;
+        padding: 40px;
+    }
+
+    &-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23.44px;
+        color: rgba(13, 76, 147, 1);
+    }
+
+    &-description {
+        margin-top: 14px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    &-button {
+        margin-top: 42px;
+        padding: 13px 83px;
+        border-radius: 35px;
+        opacity: 0.9px;
+        border: none;
+        background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}

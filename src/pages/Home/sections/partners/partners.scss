@@ -1,0 +1,29 @@
+@import "src/styles/variables.scss";
+
+.partners {
+    margin-bottom: 100px;
+    &-title {
+        margin-top: 103px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 46.88px;
+        text-align: center;
+        color: rgba(13, 76, 147, 1);
+    }
+
+    &-block {
+        margin-top: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        &-item {
+            text-align: center;
+            width: 275px;
+            border-radius: 30px;
+            border: 1px solid rgba(236, 236, 236, 1)
+        }
+    }
+}

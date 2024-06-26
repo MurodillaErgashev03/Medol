@@ -1,0 +1,59 @@
+@import "src/styles/variables.scss";
+
+.news {
+    &-list {
+        margin-top: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    &-card {
+        max-width: 382px;
+        background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0) 100%);
+        border: 2px solid rgba(246, 246, 246, 1);
+        border-radius: 35px;
+        padding: 25px;
+    }
+
+    &-image {
+        margin-top: -135px;
+    }
+
+    &-title {
+        max-width: 310px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.38px;
+        margin-top: 20px;
+        color: #0d4c93;
+    }
+
+    &-date {
+        margin-top: 18px;
+        margin-bottom: 13px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #0d4c93;
+    }
+
+    &-description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #363535;
+    }
+    &-button{
+        margin-top: 27px;
+        padding: 13px 83px;
+        border-radius: 35px;
+        opacity: 0.9px;
+        border: none;
+        background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}

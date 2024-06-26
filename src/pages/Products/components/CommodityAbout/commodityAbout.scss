@@ -1,0 +1,147 @@
+@import "src/styles/variables.scss";
+
+.commodityAbout {
+    margin-bottom: 100px;
+
+    &-top-block {
+        background-color: #FBFBFB;
+        border-radius: 35px;
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    &-images-block {
+        padding: 40px;
+    }
+
+    &-images {
+        width: 500px;
+        height: 500px;
+    }
+
+    &-span {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30.47px;
+        color: rgba(90, 90, 90, 1);
+    }
+
+    &-text {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30.47px;
+        color: rgba(13, 76, 147, 1);
+        margin-bottom: 30px;
+    }
+
+    &-description {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 25.78px;
+        color: rgba(90, 90, 90, 1);
+        margin-bottom: 45px;
+    }
+
+    &-price-btn {
+        border-radius: 35px;
+        padding: 24px 60px;
+        background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+        border: none;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23.44px;
+        color: rgba(255, 255, 255, 1);
+        margin-right: 20px;
+    }
+
+    &-application-btn {
+        border-radius: 35px;
+        padding: 24px 60px;
+        border: 1px solid rgba(13, 76, 147, 1);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23.44px;
+        color: rgba(13, 76, 147, 1);
+        background-color: white;
+    }
+
+    &-share-block {
+        max-width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+        padding: 24px 45px;
+        border-radius: 25px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    &-share-text {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30.47px;
+        color: rgba(90, 90, 90, 1);
+    }
+
+    &-messenger-block {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &-main-block {
+        margin-top: 50px;
+    }
+
+    &-description-btn {
+        padding: 25px 115px;
+        border-radius: 25px;
+        background: rgba(13, 76, 147, 1);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 30.47px;
+        color: rgba(255, 255, 255, 1);
+        margin-right: 40px;
+        border: none;
+    }
+
+    &-attached-btn {
+        padding: 25px 78px;
+        font-size: 26px;
+        border-radius: 25px;
+        font-weight: 500;
+        line-height: 30.47px;
+        background: rgba(249, 249, 249, 1);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+        color: rgba(90, 90, 90, 1);
+        border: none;
+    }
+
+    &-bottom-block {
+        margin-top: 50px;
+    }
+
+    &-bottom-text {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 25.78px;
+        color:black;
+        margin-bottom: 20px;
+    }
+    &-bottom-description{
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 25.78px;
+        color: rgba(90, 90, 90, 1);
+    }
+    &-bottom-title{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 25.78px;
+        color:black;
+        margin-top: 20px;
+    }
+}

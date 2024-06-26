@@ -1,0 +1,32 @@
+@import "src/styles/variables.scss";
+.news-main{
+    &-block{
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+    &-news-btn{
+        padding:14px 39px ;
+        color: white;
+        border-radius: 35px;
+        font-size: 28px;
+        background: #0D4C93;
+        border: none;
+        margin-right: 20px;
+    }
+    &-action-btn{
+        padding:13px 55px ;
+        color: #5A5A5A;
+        border-radius: 35px;
+        font-size: 28px;
+        background: #F9F9F9;
+        border: 1px solid #5a5a5a;
+    }
+}
+.news-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-bottom: 100px;
+}

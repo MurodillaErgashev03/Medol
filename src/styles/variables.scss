@@ -1,0 +1,16 @@
+// @import "./variables.scss";
+
+@mixin products-card__btn {
+    margin-top: 27px;
+    width: 270px;
+    height: 70px;
+    border-radius: 35px;
+    opacity: 0.9px;
+    color: #ffffff;
+    background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    border: none;
+}

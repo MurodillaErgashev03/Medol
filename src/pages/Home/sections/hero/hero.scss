@@ -1,0 +1,70 @@
+@import "src/styles/variables.scss";
+
+.hero {
+    background: #f3f3f3;
+    padding-bottom: 150px ;
+
+    &-top-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #ffffff;
+        border-radius: 35px;
+        margin-top: 48px;
+    }
+
+    &-top-item {
+        padding: 20px 40px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.44px;
+        color: #0d4c93;
+    }
+
+    &-top-item:hover {
+        color: #00c9c9;
+    }
+
+    &-top-item+&-top-item {
+        border-left: 2px solid #f2f2f2;
+    }
+
+    &-bottom-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // margin-top: 70px;
+    }
+
+    &-bottom-left {
+        &-title {
+            max-width: 350px;
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 58.59px;
+            color: #0d4c93;
+        }
+
+        &-text {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 40px;
+            color: #363535;
+            margin-top: 31px;
+            margin-bottom: 43px;
+        }
+
+        &-btn {
+            padding: 20px 72px;
+            border-radius: 35px;
+            opacity: 0.9px;
+            border: none;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 28.13px;
+            color: #ffffff;
+            background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+        }
+    }
+}
