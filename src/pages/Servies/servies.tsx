@@ -48,7 +48,7 @@ function servies() {
           <Link className='servise-page-link' to={'/'} >Главная</Link>
           / Наши услуги
         </p>
-      </div>
+      </div> 
       <div className='servise-page-cards'>
         {servise.map((post, i) => (
           <div className='servise-page-card'> 

@@ -1,7 +1,7 @@
 import comImg1 from "./../assets/images/pb1.png";
 import comImg2 from "../assets/images/pb2.png";
 import comImg3 from "../assets/images/pb3.png";
-
+ 
 interface Commodity {
     imageUrl: string;
     name: string;
